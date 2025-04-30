@@ -1,14 +1,14 @@
 import { render } from '@czechitas/render';
 import '../global.css';
 import './index.css';
-import  { Header } from 'https://vscode.dev/github/LenkaKotkova/JS2/blob/main/src/components'
+/*import Header from '../../components/Header/header';*/
 
 const name1 = 'Silvestr';
-const image1 = 'https://kodim.cz/cms/assets/kurzy/react-1/plysaci/elephant.jpg';
+const image1 = 'https://kodim.cz/cms/assets/czechitas/js2/lekce/sablony-komponenty/cv-komponenty/plysaci/elephant.jpg';
 const text1 = 'Silvestr rád pozoruje dění za oknem a upřímně se usmívá na všechno kolemjdoucí.';
 
 const name2 = 'Ctirad';
-const image2 = 'https://kodim.cz/cms/assets/kurzy/react-1/plysaci/mouse.jpg';
+const image2 = 'https://kodim.cz/cms/assets/czechitas/js2/lekce/sablony-komponenty/cv-komponenty/plysaci/mouse.jpg';
 const text2 = 'Ctirad tráví svůj čas v blízkosti lednice a s očekáváním pozoruje její bílé dveře.';
 
 const Silvestr = () => {

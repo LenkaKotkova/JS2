@@ -1,13 +1,53 @@
-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 4rem;
+
+/* Základní styly pro celou stránku */
+body {
+  font-family: sans-serif; 
+  margin: 20px; 
+  background-color:#fff; 
 }
 
-.logo {
-  width: 10rem;
-  height: 10rem;
-  background-image: url(../img/rocket.svg);
-  background-size: contain;
+
+h1 {
+  text-align: center; 
+  color: #333; 
+  margin-bottom: 30px; 
+}
+
+/* Kontejner pro plyšáky, aby byli vedle sebe */
+.plushies {
+  display: flex; 
+  justify-content: center; 
+  gap: 20px; 
+  margin-bottom: 30px; 
+}
+
+/* Styl pro jednu kartu s plyšákem */
+.plushy {
+  background-color: #fff; 
+  padding: 15px; 
+   width: 300px; 
+}
+
+/* Styl pro obrázek plyšáka */
+.plushy__image {
+  max-width: 100%; 
+  height: auto; 
+  margin-bottom: 10px;
+ }
+
+/* Styl pro jméno plyšáka */
+.plushy__name {
+  font-size: 1.5em; 
+  font-weight: bold;
+  text-align: center; 
+  color: #555; 
+  margin-bottom: 5px; 
+}
+
+/* Styl pro text o plyšákovi */
+.plushy__text {
+  color: #777; 
+  font-size: 0.9em; 
+  line-height: 1.4; 
+  text-align: left;
 }
